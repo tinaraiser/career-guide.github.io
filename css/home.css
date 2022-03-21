@@ -1,0 +1,102 @@
+.nav{
+    background: aqua;
+    height: 70px;
+}
+.nav div{
+    color: rgb(248, 232, 0);
+    display: inline-block;
+    left: 5px;
+    position: absolute;
+    padding: 2px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav ul{
+    right: 15px;
+    position: absolute;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    color: rgb(230, 11, 102);
+    padding: 3px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.home{
+    background: url(../img/pexels-lukas-652355.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.text-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.button{
+    background-color: aqua;
+    width: 70px;
+    height: 35px;
+    border: red;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.5;
+}
+.button:active{
+    background-color: black;
+    color: aqua;
+}
+/* content */
+.category div{
+    color: rgb(255, 166, 0);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+}
+.choose-btn{
+    background-color: rgb(31, 196, 16);
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+    height: 125px;
+}
+.go{
+    height: 40px;
+    background-color: rgb(253, 2, 169);
+    border: none;
+    border-radius: 5px;
+}
+/* about */
+.about-content{
+    margin: 150px auto 0 auto;
+    width: 500px;
+    color: rgb(24, 23, 23);
+}
+.about-content h1{
+    text-align: center;
+    color: red;
+}
+.about-content p{
+    text-align: justify;
+    color: green;}
+    /* contact */
+    .contact-content{
+        margin: 80px auto 0 auto;
+        text-align: center;
+    }
+    .contact-content h1{
+        font-family: 'roboto' sans-serif;
+        color: red;
+    }
+    .contact-content.address-holder{
+        font-family: 'lato',sans-serif;
+    }
